@@ -1,0 +1,78 @@
+main {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   width: 1110px;
+}
+
+.contact-intro {
+   display: flex;
+   justify-content: space-between;
+
+   height: 250px;
+}
+
+.container-txt {
+   width: 635px;
+   height: 180px;
+}  
+
+.container-social-medias {
+   display: flex;
+   gap: 15px;
+   margin-top: 32px;
+}
+
+.container-to-contact {
+   display: flex;
+   justify-content: space-between;
+
+   width: 100%;
+}  
+
+.container-inputs {
+
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+
+   width: 635px;
+   height: 526px;
+}
+
+input {
+
+   height: 48px;
+   padding: 16px;
+
+   border: none;
+   background-color: var(--bg-input);
+}
+input:focus {
+   border: 2px solid #000;
+}
+
+.input-menssage {
+   height: 150px;
+}
+
+label {
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 30px;
+
+
+   color: var(--txt-color);
+}
+
+.btn-input {
+   color: var(--txt-color-white);
+   background-color: var(--dark-blue);
+}
+
+.btn-input:hover {
+   background-color: var(--cyan);
+   border: none;
+}
